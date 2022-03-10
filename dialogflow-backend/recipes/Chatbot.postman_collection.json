@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "37969a92-120b-4121-8c9a-8f8b31db3175",
+		"name": "Chatbot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "WebHook Alive Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WebHook Test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"responseId\": \"b704b0da-8350-430c-9322-dcc9d9634f65-40ef380a\",\r\n  \"queryResult\": {\r\n    \"queryText\": \"I want to apply for a .NET job\",\r\n    \"action\": \"onboardingInterview\",\r\n    \"parameters\": {\r\n      \"skill\": \".NET\"\r\n    },\r\n    \"allRequiredParamsPresent\": true,\r\n    \"fulfillmentMessages\": [\r\n      {\r\n        \"text\": {\r\n          \"text\": [\r\n            \"\"\r\n          ]\r\n        }\r\n      }\r\n    ],\r\n    \"outputContexts\": [\r\n      {\r\n        \"name\": \"projects/kyra-ppej/agent/sessions/dfMessenger-11666352/contexts/candidateonboarding-followup\",\r\n        \"lifespanCount\": 2,\r\n        \"parameters\": {\r\n          \"skill\": \".NET\",\r\n          \"skill.original\": \".NET\"\r\n        }\r\n      },\r\n      {\r\n        \"name\": \"projects/kyra-ppej/agent/sessions/dfMessenger-11666352/contexts/__system_counters__\",\r\n        \"parameters\": {\r\n          \"no-input\": 0,\r\n          \"no-match\": 0,\r\n          \"skill\": \".NET\",\r\n          \"skill.original\": \".NET\"\r\n        }\r\n      }\r\n    ],\r\n    \"intent\": {\r\n      \"name\": \"projects/kyra-ppej/agent/intents/f5df6789-ffe0-4b19-8519-326f8a1a1f99\",\r\n      \"displayName\": \"CandidateOnboarding\"\r\n    },\r\n    \"intentDetectionConfidence\": 1,\r\n    \"languageCode\": \"en\",\r\n    \"sentimentAnalysisResult\": {\r\n      \"queryTextSentiment\": {\r\n        \"score\": 0.1,\r\n        \"magnitude\": 0.1\r\n      }\r\n    }\r\n  },\r\n  \"originalDetectIntentRequest\": {\r\n    \"payload\": {}\r\n  },\r\n  \"session\": \"projects/kyra-ppej/agent/sessions/dfMessenger-11996352\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/webhook",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"webhook"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

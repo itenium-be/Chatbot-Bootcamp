@@ -1,0 +1,78 @@
+[
+  {
+    "value": "JavaScript",
+    "synonyms": ["JavaScript", "JS", "ECMAScript", "TypeScript"]
+  },
+  {
+    "value": "Java",
+    "synonyms": ["Java", "J2EE", "Spring"]
+  },
+  {
+    "value": "Python",
+    "synonyms": ["Python", "py"]
+  },
+  {
+    "value": ".NET",
+    "synonyms": ["C#", "CSharp", ".NET", "dotnet", ".NET Core", "VB.NET", "F#"]
+  },
+  {
+    "value": "C++",
+    "synonyms": ["C++", "cpp"]
+  },
+  {
+    "value": "SAP",
+    "synonyms": ["SAP"]
+  },
+  {
+    "value": "NodeJS",
+    "synonyms": ["Node", "NodeJS", "Node.JS"]
+  },
+  {
+    "value": "React",
+    "synonyms": ["React", "ReactJS", "React.JS"]
+  },
+  {
+    "value": "Angular",
+    "synonyms": ["Angular", "ng2"]
+  },
+  {
+    "value": "Ruby",
+    "synonyms": ["Ruby"]
+  },
+  {
+    "value": "Oracle",
+    "synonyms": ["Oracle", "PL/SQL", "PLSQL"]
+  },
+  {
+    "value": "SQL Server",
+    "synonyms": ["SQL Server", "SQLServer", "T-SQL", "TSQL"]
+  },
+  {
+    "value": "Vue",
+    "synonyms": ["Vue", "VueJS", "Vue.JS"]
+  },
+  {
+    "value": "Dart",
+    "synonyms": ["Dart", "Flutter"]
+  },
+  {
+    "value": "Azure",
+    "synonyms": ["Azure"]
+  },
+  {
+    "value": "SQL",
+    "synonyms": ["SQL"]
+  },
+  {
+    "value": "GDPR",
+    "synonyms": ["GDPR"]
+  },
+  {
+    "value": "Scrum",
+    "synonyms": ["Scrum"]
+  },
+  {
+    "value": "UML",
+    "synonyms": ["UML"]
+  }
+]

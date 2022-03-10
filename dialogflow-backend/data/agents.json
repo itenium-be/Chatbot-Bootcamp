@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mega Agent",
+    "id": "itenium-chatbot-wpxe"
+  },
+  {
+    "name": "itenium-chatbot-candidate",
+    "id": "itenium-chatbot-candidate-lico"
+  },
+  {
+    "name": "itenium-chatbot-client",
+    "id": "itenium-chatbot-client-wbrm"
+  },
+  {
+    "name": "itenium-chatbot-consultant",
+    "id": "itenium-chatbot-consultan-dnxo"
+  },
+  {
+    "name": "itenium-chatbot-potential-client",
+    "id": "itenium-chatbot-potential-xcvt"
+  },
+  {
+    "name": "itenium-chatbot-visitor",
+    "id": "itenium-chatbot-visitor-tc9k"
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "value": "Architect",
+    "synonyms": [
+      "Architect",
+      "Application Architect",
+      "Solution Architect"
+    ]
+  },
+  {
+    "value": "Developer",
+    "synonyms": [
+      "Developer",
+      "Programmer",
+      "Dev",
+      "Engineer",
+      "Hacker",
+      "Techie",
+      "Ninja"
+    ]
+  },
+  {
+    "value": "DBA",
+    "synonyms": [
+      "DBA",
+      "Database"
+    ]
+  },
+  {
+    "value": "DevOps",
+    "synonyms": [
+      "DevOps"
+    ]
+  },
+  {
+    "value": "Functional Analyst",
+    "synonyms": [
+      "Functional Analyst",
+      "FA"
+    ]
+  },
+  {
+    "value": "Business Analyst",
+    "synonyms": [
+      "Business Analyst",
+      "BA"
+    ]
+  },
+  {
+    "value": "Product Owner",
+    "synonyms": [
+      "Product Owner",
+      "PO"
+    ]
+  },
+  {
+    "value": "Scrum Master",
+    "synonyms": [
+      "Scrum Master",
+      "agile coach"
+    ]
+  },
+  {
+    "value": "Tester",
+    "synonyms": [
+      "Tester",
+      "Test Engineer",
+      "Test Manager"
+    ]
+  },
+  {
+    "value": "Network Engineer",
+    "synonyms": [
+      "Network Engineer"
+    ]
+  },
+  {
+    "value": "UX/UX Designer",
+    "synonyms": [
+      "UX/UX Designer",
+      "Designer",
+      "UI",
+      "UX",
+      "CSS Specialist"
+    ]
+  }
+]

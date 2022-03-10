@@ -1,0 +1,25 @@
+{
+    "email": "info@itenium.be",
+    "office": {
+        "address": {
+            "street": "Mechelsesteenweg 200",
+            "city": "Sint-Katelijne-Waver"
+        },
+        "hoursOfOperation": {
+            "wednesday": [9, 17],
+            "friday": [9, 16]
+        }
+    },
+    "people": [
+        {
+            "name": "Stijn",
+            "roles": ["interviewer"],
+            "clients": ["Microsoft", "Google", "Fluvius", "OVAM", "Agilitas"]
+        },
+        {
+            "name": "Steven",
+            "roles": ["interviewer", "hr"],
+            "clients": ["Apple", "Amazon", "Partena", "Swift", "LAV", "SBB", "Sport Vlaanderen"]
+        }
+    ]
+}

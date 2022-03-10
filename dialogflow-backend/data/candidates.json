@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Robert",
+    "status": "new",
+    "contact": {
+      "email": "robert@outlook.com",
+      "telephone": "+32474607291"
+    },
+    "city": "Halle",
+    "jobCategory": "Tester",
+    "seniority": "Senior"
+  },
+  {
+    "name": "Justin",
+    "status": "prescreening",
+    "contact": {
+      "email": "justin@gmail.com",
+      "telephone": "(123) 456-7890"
+    },
+    "city": "Brussel",
+    "jobCategory": "Developer",
+    "skills": ["Python"],
+    "seniority": "Medior"
+  },
+  {
+    "name": "Stephen",
+    "status": "interview",
+    "contact": {
+      "email": "stephen@facebook.com",
+      "telephone": "+324746567842"
+    },
+    "city": "Antwerpen",
+    "jobCategory": "Developer",
+    "skills": ["Python", "Angular"],
+    "seniority": "Junior"
+  },
+  {
+    "name": "Reddy",
+    "status": "offer",
+    "contact": {
+      "email": "reddy@mail.com",
+      "telephone": "0476403506"
+    },
+    "city": "Brugge",
+    "jobCategory": "Developer",
+    "skills": ["Java", "Swing"],
+    "seniority": "Medior"
+  },
+  {
+    "name": "Koen",
+    "status": "hired",
+    "contact": {
+      "email": "koen@koenen.com",
+      "telephone": "0475369582"
+    },
+    "city": "Mechelen",
+    "jobCategory": "Developer",
+    "skills": [".NET"],
+    "seniority": "Senior"
+  }
+]

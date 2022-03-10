@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Microsoft",
+    "city": "Brussel",
+    "jobs": [
+      {
+        "title": "Full Stack Java Developer",
+        "jobCategory": "Developer",
+        "requiredSkills": ["Java", "Spring", "Angular"],
+        "seniority": "Medior"
+      }
+    ]
+  },
+  {
+    "name": "Google",
+    "city": "Gent",
+    "jobs": [
+      {
+        "title": "Full Stack .NET Developer",
+        "jobCategory": "Developer",
+        "requiredSkills": [".NET", "React", "SQL Server"],
+        "seniority": "Senior"
+      }
+    ]
+  },
+  {
+    "name": "Apple",
+    "city": "Antwerpen",
+    "jobs": [
+      {
+        "title": "Chatbot Functional Analyst",
+        "jobCategory": "Functional Analyst",
+        "requiredSkills": ["UML"],
+        "seniority": "Senior"
+      },
+      {
+        "title": "Agile Coach",
+        "jobCategory": "Scrum Master",
+        "seniority": "Senior"
+      }
+    ]
+  },
+  {
+    "name": "Amazon",
+    "city": "Mechelen",
+    "jobs": [
+      {
+        "title": "Junior Test Engineer",
+        "jobCategory": "Tester",
+        "seniority": "Junior"
+      }
+    ]
+  },
+  {
+    "name": "Agilitas"
+  },
+  {
+    "name": "SBB"
+  },
+  {
+    "name": "Partena"
+  },
+  {
+    "name": "LAV"
+  },
+  {
+    "name": "Swift"
+  },
+  {
+    "name": "OVAM"
+  }
+]

@@ -48,7 +48,7 @@ function candidateOnboardingExample(agent: WebhookClient): void {
 
 app.post('/webhook', function (req: Request, res: Response) {
     console.info(`\n\n******** S E R V E R   H I T ********`);
-    console.log(JSON.stringify(req.body, null, 2));
+    // console.log(JSON.stringify(req.body, null, 2));
 
     const agent = new WebhookClient({request: req, response: res});
 

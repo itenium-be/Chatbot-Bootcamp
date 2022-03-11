@@ -1,73 +1,167 @@
-[{
+[
+  {
     "name": "Bert",
-    "lastname" : "Vermorgen",
+    "lastname": "Vermorgen",
+    "dob": "20-02-1995",
     "city": "Dendermonde",
     "email": "bert.vermorgen@itenium.be",
-    "skills": [".NET", "SQL Server", "JavaScript", "Angular"],
-    "hobbies": ["Badminton", "Swimming", "Reading"],
-    "project":"Digitaal Vlaanderen"
-}, {
-  "name": "Jonathan",
-  "lastname": "Rasquin",
-  "city": "Vilvoorde",
-  "email": "jonathan.rasquin@itenium.be",
-  "skills": [".NET", "Azure"],
-  "hobbies": ["Volleyball", "Squash", "Snowboarding", "Social"],
-  "project": "Agilitas"
-}, {
-  "name": "Michiel",
-  "lastname": "Ryvers",
-  "city": "Leuven",
-  "email": "michiel.ryvers@itenium.be",
-  "skills": [".NET", "Angular"],
-  "hobbies": ["Reading", "Cycling", "Wall Climbing"],
-  "project": "SBB"
-}, {
-  "name": "Mike",
-  "lastname" : "Dumortier",
-  "city": "Hemiksem",
-  "email": "michael.dumortier@itenium.be",
-  "skills": ["GDPR", "SQL"],
-  "hobbies": ["Golf", "Tennis", "Padel", "Cycling", "Reading", "Quiz"],
-  "project": "Partena"
-}, {
-  "name": "Sofie",
-  "lastname": "Vinck",
-  "city": "Pamel",
-  "email": "sofie.vinck@itenium.be",
-  "skills": ["Scrum"],
-  "hobbies": ["Triathlon", "Running", "Spinning", "Cycling"],
-  "project": "Partena"
-}, {
-  "name": "Thibault",
-  "lastname" : "Derieuw",
-  "city": "Brussel",
-  "email": "thibault.derieuw@itenium.be",
-  "skills": [".NET", "Vue", "SQL Server"],
-  "hobbies": ["Linux", "Music", "Reading", "Cooking"],
-  "project": "Sport Vlaanderen"
-}, {
-  "name": "Tomas",
-  "lastname":"Berckx",
-  "city": "Keerbergen",
-  "email": "tomas.berckx@itenium.be",
-  "skills": [".NET", "Oracle", "Angular", "React", "Vue"],
-  "hobbies": ["Magic The Gathering", "Power Lifting"],
-  "project": "LAV"
-}, {
-  "name": "Thomas",
-"lastname":"De Brauwer",
-  "city": "Galmaarden",
-  "email": "thomas.de.brauwer@itenium.be",
-  "skills": ["Java", "SQL", "UML"],
-  "hobbies": ["Travelling", "Board Games", "Football"],
-  "project": "Swift"
-}, {
-  "name": "Yentl",
-  "lastname":"Storms",
-  "city": "Schriek",
-  "email": "yentl.storms@itenium.be",
-  "skills": ["Java", "Spring", "Angular", "React"],
-  "hobbies": ["Piano", "Lacrosse"],
-  "project": "OVAM"
-}]
+    "skills": [
+      ".NET",
+      "SQL Server",
+      "JavaScript",
+      "Angular"
+    ],
+    "hobbies": [
+      "Badminton",
+      "Swimming",
+      "Reading"
+    ],
+    "project": "Digitaal Vlaanderen"
+  },
+  {
+    "name": "Jonathan",
+    "lastname": "Rasquin",
+    "dob": "20-02-1995",
+    "city": "Vilvoorde",
+    "email": "jonathan.rasquin@itenium.be",
+    "skills": [
+      ".NET",
+      "Azure"
+    ],
+    "hobbies": [
+      "Volleyball",
+      "Squash",
+      "Snowboarding",
+      "Social"
+    ],
+    "project": "Agilitas"
+  },
+  {
+    "name": "Michiel",
+    "lastname": "Ryvers",
+    "dob": "20-02-1995",
+    "city": "Leuven",
+    "email": "michiel.ryvers@itenium.be",
+    "skills": [
+      ".NET",
+      "Angular"
+    ],
+    "hobbies": [
+      "Reading",
+      "Cycling",
+      "Wall Climbing"
+    ],
+    "project": "SBB"
+  },
+  {
+    "name": "Mike",
+    "lastname": "Dumortier",
+    "dob": "20-02-1995",
+    "city": "Hemiksem",
+    "email": "michael.dumortier@itenium.be",
+    "skills": [
+      "GDPR",
+      "SQL"
+    ],
+    "hobbies": [
+      "Golf",
+      "Tennis",
+      "Padel",
+      "Cycling",
+      "Reading",
+      "Quiz"
+    ],
+    "project": "Partena"
+  },
+  {
+    "name": "Sofie",
+    "lastname": "Vinck",
+    "dob": "20-02-1995",
+    "city": "Pamel",
+    "email": "sofie.vinck@itenium.be",
+    "skills": [
+      "Scrum"
+    ],
+    "hobbies": [
+      "Triathlon",
+      "Running",
+      "Spinning",
+      "Cycling"
+    ],
+    "project": "Partena"
+  },
+  {
+    "name": "Thibault",
+    "lastname": "Derieuw",
+    "dob": "20-02-1995",
+    "city": "Brussel",
+    "email": "thibault.derieuw@itenium.be",
+    "skills": [
+      ".NET",
+      "Vue",
+      "SQL Server"
+    ],
+    "hobbies": [
+      "Linux",
+      "Music",
+      "Reading",
+      "Cooking"
+    ],
+    "project": "Sport Vlaanderen"
+  },
+  {
+    "name": "Tomas",
+    "lastname": "Berckx",
+    "dob": "20-02-1995",
+    "city": "Keerbergen",
+    "email": "tomas.berckx@itenium.be",
+    "skills": [
+      ".NET",
+      "Oracle",
+      "Angular",
+      "React",
+      "Vue"
+    ],
+    "hobbies": [
+      "Magic The Gathering",
+      "Power Lifting"
+    ],
+    "project": "LAV"
+  },
+  {
+    "name": "Thomas",
+    "lastname": "De Brauwer",
+    "dob": "20-02-1995",
+    "city": "Galmaarden",
+    "email": "thomas.de.brauwer@itenium.be",
+    "skills": [
+      "Java",
+      "SQL",
+      "UML"
+    ],
+    "hobbies": [
+      "Travelling",
+      "Board Games",
+      "Football"
+    ],
+    "project": "Swift"
+  },
+  {
+    "name": "Yentl",
+    "lastname": "Storms",
+    "dob": "20-02-1995",
+    "city": "Schriek",
+    "email": "yentl.storms@itenium.be",
+    "skills": [
+      "Java",
+      "Spring",
+      "Angular",
+      "React"
+    ],
+    "hobbies": [
+      "Piano",
+      "Lacrosse"
+    ],
+    "project": "OVAM"
+  }
+]

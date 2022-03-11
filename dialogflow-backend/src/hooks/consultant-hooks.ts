@@ -30,7 +30,7 @@ function problemReportHandler(agent: WebhookClient): void {
             agent.setFollowupEvent('consultants_direct_to_carproblem');
             return;
         case 'HR':
-            agent.add('Unsupported operation');
+            agent.setFollowupEvent('consultants_direct_to_hrproblem');
             return;
         case 'Illness':
             agent.add('Unsupported operation');
@@ -46,12 +46,6 @@ function problemReportHandler(agent: WebhookClient): void {
 
 function carProblemHandler(agent: WebhookClient): void {
     console.error('Reporting Car problem');
-    console.log('action:', agent.action);
-    console.log('contexts:', agent.contexts);
-    console.log('intent:', agent.intent);
-    console.log('parameters:', agent.parameters);
-    console.log('session:', agent.session);
-    console.log('query:', agent.query);
 
     agent.add(new Card({
         title: 'Car problem successfully reported!',
@@ -62,10 +56,22 @@ function carProblemHandler(agent: WebhookClient): void {
             <div>${agent.parameters['description']}</div>
         `,
     }));
+}
+function hrProblemHandler(agent: WebhookClient): void {
+    console.error('Reporting HR problem');
 
+    agent.add(new Card({
+        title: 'HR problem successfully reported!',
+        imageUrl: 'https://www.seekpng.com/png/detail/304-3043196_technology-clipart-recruitment-computer-icons-human-human-resource.png',
+        text: `
+            Sent e-mail to timesheet@itenium.be
+            ${agent.parameters['description']}
+        `,
+    }));
 }
 
 export default function (intentMap: Map<string, Function>) {
     intentMap.set('consultant.ProblemReport', problemReportHandler);
     intentMap.set('consultant.CarProblem', carProblemHandler);
+    intentMap.set('consultant.HrProblem', hrProblemHandler);
 }

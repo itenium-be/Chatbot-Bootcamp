@@ -12,10 +12,10 @@ function problemReportHandler(agent: WebhookClient): void {
     console.log('session:', agent.session);
     console.log('query:', agent.query);
 
-    const paramName = agent.parameters['name']['name'];
+    const paramName = agent.parameters['firstname']['name'];
     const paramDob = dateFormat(new Date(agent.parameters['birthdate']));
 
-    const consultant = consultants.find(({lastname, name}) => `${name} ${lastname}` === paramName);
+    const consultant = consultants.find(({name}) => name.toLowerCase() === paramName.toLowerCase());
     if (!consultant) {
         agent.add('You are not known in our system yet. Maybe you want to apply for a job?');
         return;
@@ -25,6 +25,7 @@ function problemReportHandler(agent: WebhookClient): void {
         return;
     }
 
+    debugger;
     switch (agent.parameters['problemTopics']) {
         case 'Car':
             agent.setFollowupEvent('consultants_direct_to_carproblem');
@@ -57,9 +58,8 @@ function carProblemHandler(agent: WebhookClient): void {
         title: 'Car problem successfully reported!',
         imageUrl: 'https://www.seekpng.com/png/detail/206-2068514_flat-tire-icon-tire.png',
         text: `
-            <div>Sent e-mail to Fleet@itenium.be</div>
-            
-            <div>${agent.parameters['description']}</div>
+            Sent e-mail to Fleet@itenium.be\n\n
+            ${agent.parameters['description']}
         `,
     }));
 

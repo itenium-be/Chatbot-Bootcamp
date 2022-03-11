@@ -1,7 +1,12 @@
 Chatbot
 =======
 
-Wifi: `DENBERG-GUEST`
+Wifi: `DENBERG-GUEST`  
+
+WebHook ngrok url: https://1143-81-82-204-72.ngrok.io/webhook  
+GMeet: meet.google.com/tvw-bcne-znf  
+
+Node version: v14.17.6
 
 The Bots
 --------

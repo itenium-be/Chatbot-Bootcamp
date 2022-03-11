@@ -1,5 +1,11 @@
 {
-    "email": "info@itenium.be",
+    "emails": {
+      "general": "info@itenium.be",
+      "hr": "hr@itenium.be",
+      "fleet": "fleet@itenium.be",
+      "timesheet": "timesheet@itenium.be",
+      "tech": "wouter.van.schandevijl@itenium.be"
+    },
     "office": {
         "address": {
             "street": "Mechelsesteenweg 200",

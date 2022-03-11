@@ -1,6 +1,18 @@
 Chatbot
 =======
 
+The Bots
+--------
+
+- [Candidates](https://itenium-chatbot-candidate-lico.web.ushaflow.io)
+- [Clients](https://itenium-chatbot-client-wbrm.web.ushaflow.io)
+- [Consultants](https://itenium-chatbot-consultan-dnxo.web.ushaflow.io)
+- [Potential Clients](https://itenium-chatbot-potential-xcvt.web.ushaflow.io)
+- [Visitor](https://itenium-chatbot-visitor-tc9k.web.ushaflow.io)
+- [Combined Bot](https://bootcamp-chatbot-cfav.web.ushaflow.io/)
+
+
+
 dialogflow-backend
 ------------------
 
@@ -9,6 +21,28 @@ cd dialogflow-backend
 npm install
 npm run watch
 ```
+
+
+dialogflow-frontend
+-------------------
+
+[Cloned from here](https://github.com/mishushakov/dialogflow-web-v2)
+
+```
+cd dialogflow-frontend
+npm install
+npm run serve
+```
+
+Edit `dialogflow-frontend/src/config/index.js` endpoint with one of these urls:
+
+- [Candidates](https://itenium-chatbot-candidate-lico.core.ushaflow.io)
+- [Clients](https://itenium-chatbot-client-wbrm.core.ushaflow.io)
+- [Consultants](https://itenium-chatbot-consultan-dnxo.core.ushaflow.io)
+- [Potential Clients](https://itenium-chatbot-potential-xcvt.core.ushaflow.io)
+- [Visitor](https://itenium-chatbot-visitor-tc9k.core.ushaflow.io)
+- [Combined Bot](https://bootcamp-chatbot-cfav.core.ushaflow.io/)
+
 
 
 ngrok

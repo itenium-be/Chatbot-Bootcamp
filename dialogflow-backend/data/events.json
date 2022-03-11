@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Bootcamp Chatbots",
+    "desc": "Bootcamp om een Chatbot te maken met Dialogflow en te integreren in itenium.be",
+    "date": "2022-03-11"
+  },
+  {
+    "title": "Architectuur Opening Session",
+    "desc": "Opleidingsplan Architectuur: Globaal overzicht en inplannen sessies Design, Architectuur, Patterns, etc",
+    "date": "2022-04-15"
+  },
+  {
+    "title": "Waarom ik geen ifs meer schrijf",
+    "desc": "Waarom Scrum geen Agile is + Geen ifs meer",
+    "date": "2022-04-22"
+  },
+  {
+    "title": "Garbage Collection",
+    "desc": "Vergelijk GC in Java en .NET",
+    "date": "2022-05-19"
+  }
+]

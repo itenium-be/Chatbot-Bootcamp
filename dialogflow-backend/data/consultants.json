@@ -3,61 +3,70 @@
     "city": "Etterbeek",
     "email": "bert.vermorgen@itenium.be",
     "skills": [".NET", "SQL Server", "JavaScript"],
-    "hobbies": ["Badminton", "Swimming", "Reading"]
+    "hobbies": ["Badminton", "Swimming", "Reading"],
+    "birthdate": "1990-11-22"
 }, {
   "name": "Jonathan",
   "city": "Vilvoorde",
   "email": "jonathan.rasquin@itenium.be",
   "skills": [".NET", "Azure"],
   "hobbies": ["Volleyball", "Squash", "Snowboarding", "Social"],
-  "project": "Agilitas"
+  "project": "Agilitas",
+  "birthdate": "1990-11-22"
 }, {
   "name": "Michiel",
   "city": "Leuven",
   "email": "michiel.ryvers@itenium.be",
   "skills": [".NET", "Angular"],
   "hobbies": ["Reading", "Cycling", "Wall Climbing"],
-  "project": "SBB"
+  "project": "SBB",
+  "birthdate": "1990-11-22"
 }, {
   "name": "Mike",
   "city": "Hemiksem",
   "email": "michael.dumortier@itenium.be",
   "skills": ["GDPR", "SQL"],
   "hobbies": ["Golf", "Tennis", "Padel", "Cycling", "Reading", "Quiz"],
-  "project": "Partena"
+  "project": "Partena",
+  "birthdate": "1990-11-22"
 }, {
   "name": "Sofie",
   "city": "Pamel",
   "email": "sofie.vinck@itenium.be",
   "skills": ["Scrum"],
   "hobbies": ["Triathlon", "Running", "Spinning", "Cycling"],
-  "project": "Partena"
+  "project": "Partena",
+  "birthdate": "1990-11-22"
 }, {
   "name": "Thibault",
   "city": "Brussel",
   "email": "thibault.derieuw@itenium.be",
   "skills": [".NET", "Vue", "SQL Server"],
   "hobbies": ["Linux", "Music", "Reading", "Cooking"],
-  "project": "Sport Vlaanderen"
+  "project": "Sport Vlaanderen",
+  "birthdate": "1990-11-22"
 }, {
   "name": "Tomas",
   "city": "Keerbergen",
   "email": "tomas.berckx@itenium.be",
   "skills": [".NET", "Oracle", "Angular", "React", "Vue"],
   "hobbies": ["Magic The Gathering", "Power Lifting"],
-  "project": "LAV"
+  "project": "LAV",
+  "birthdate": "1990-11-22"
 }, {
   "name": "Thomas",
   "city": "Galmaarden",
   "email": "thomas.de.brauwer@itenium.be",
   "skills": ["Java", "SQL", "UML"],
   "hobbies": ["Travelling", "Board Games", "Football"],
-  "project": "Swift"
+  "project": "Swift",
+  "birthdate": "1990-11-22"
 }, {
   "name": "Yentl",
   "city": "Schriek",
   "email": "yentl.storms@itenium.be",
   "skills": ["Java", "Spring", "Angular", "React"],
   "hobbies": ["Piano", "Lacrosse"],
-  "project": "OVAM"
+  "project": "OVAM",
+  "birthdate": "1990-11-22"
 }]

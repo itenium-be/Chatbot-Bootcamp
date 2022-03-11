@@ -4,7 +4,9 @@
     "email": "bert.vermorgen@itenium.be",
     "skills": [".NET", "SQL Server", "JavaScript"],
     "hobbies": ["Badminton", "Swimming", "Reading"],
-    "birthdate": "1990-11-22"
+    "birthdate": "1990-11-22",
+    "approved":true
+
 }, {
   "name": "Jonathan",
   "city": "Vilvoorde",
@@ -12,7 +14,8 @@
   "skills": [".NET", "Azure"],
   "hobbies": ["Volleyball", "Squash", "Snowboarding", "Social"],
   "project": "Agilitas",
-  "birthdate": "1990-11-22"
+  "birthdate": "1990-11-22",
+  "approved":true
 }, {
   "name": "Michiel",
   "city": "Leuven",
@@ -20,7 +23,8 @@
   "skills": [".NET", "Angular"],
   "hobbies": ["Reading", "Cycling", "Wall Climbing"],
   "project": "SBB",
-  "birthdate": "1990-11-22"
+  "birthdate": "1990-11-22",
+  "approved":true
 }, {
   "name": "Mike",
   "city": "Hemiksem",
@@ -28,7 +32,8 @@
   "skills": ["GDPR", "SQL"],
   "hobbies": ["Golf", "Tennis", "Padel", "Cycling", "Reading", "Quiz"],
   "project": "Partena",
-  "birthdate": "1990-11-22"
+  "birthdate": "1990-11-22",
+  "approved":true
 }, {
   "name": "Sofie",
   "city": "Pamel",
@@ -36,7 +41,8 @@
   "skills": ["Scrum"],
   "hobbies": ["Triathlon", "Running", "Spinning", "Cycling"],
   "project": "Partena",
-  "birthdate": "1990-11-22"
+  "birthdate": "1990-11-22",
+  "approved":true
 }, {
   "name": "Thibault",
   "city": "Brussel",
@@ -44,7 +50,8 @@
   "skills": [".NET", "Vue", "SQL Server"],
   "hobbies": ["Linux", "Music", "Reading", "Cooking"],
   "project": "Sport Vlaanderen",
-  "birthdate": "1990-11-22"
+  "birthdate": "1990-11-22",
+  "approved":true
 }, {
   "name": "Tomas",
   "city": "Keerbergen",
@@ -52,7 +59,8 @@
   "skills": [".NET", "Oracle", "Angular", "React", "Vue"],
   "hobbies": ["Magic The Gathering", "Power Lifting"],
   "project": "LAV",
-  "birthdate": "1990-11-22"
+  "birthdate": "1990-11-22",
+  "approved":true
 }, {
   "name": "Thomas",
   "city": "Galmaarden",
@@ -60,7 +68,8 @@
   "skills": ["Java", "SQL", "UML"],
   "hobbies": ["Travelling", "Board Games", "Football"],
   "project": "Swift",
-  "birthdate": "1990-11-22"
+  "birthdate": "1990-11-22",
+  "approved":true
 }, {
   "name": "Yentl",
   "city": "Schriek",
@@ -68,5 +77,6 @@
   "skills": ["Java", "Spring", "Angular", "React"],
   "hobbies": ["Piano", "Lacrosse"],
   "project": "OVAM",
-  "birthdate": "1990-11-22"
+  "birthdate": "1990-11-22",
+  "approved":true
 }]

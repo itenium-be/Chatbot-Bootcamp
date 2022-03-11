@@ -53,7 +53,6 @@ app.post('/webhook', function (req: Request, res: Response) {
     const agent = new WebhookClient({request: req, response: res});
 
     let intentMap = new Map();
-    intentMap.set('CandidateOnboarding', candidateOnboardingExample);
     addCandidateMappings(intentMap);
     addClientMappings(intentMap);
     addConsultantMappings(intentMap);

@@ -5,12 +5,6 @@ const dateFormat = date => `${date.getFullYear()}-${(date.getMonth() + 1).toStri
 
 function problemReportHandler(agent: WebhookClient): void {
     console.error('Reporting problem');
-    console.log('action:', agent.action);
-    console.log('contexts:', agent.contexts);
-    console.log('intent:', agent.intent);
-    console.log('parameters:', agent.parameters);
-    console.log('session:', agent.session);
-    console.log('query:', agent.query);
 
     const paramName = agent.parameters['firstname']['name'];
     const paramDob = dateFormat(new Date(agent.parameters['birthdate']));
@@ -46,26 +40,23 @@ function problemReportHandler(agent: WebhookClient): void {
 }
 
 function carProblemHandler(agent: WebhookClient): void {
-    console.error('Reporting Car problem');
-
     agent.add(new Card({
         title: 'Car problem successfully reported!',
         imageUrl: 'https://www.seekpng.com/png/detail/206-2068514_flat-tire-icon-tire.png',
         text: `
-            Sent e-mail to Fleet@itenium.be\n\n
-            ${agent.parameters['description']}
+            <div>Sent e-mail to Fleet@itenium.be\n\n</div>
+            <div>${agent.parameters['description']}</div>
         `,
     }));
 }
-function hrProblemHandler(agent: WebhookClient): void {
-    console.error('Reporting HR problem');
 
+function hrProblemHandler(agent: WebhookClient): void {
     agent.add(new Card({
         title: 'HR problem successfully reported!',
         imageUrl: 'https://www.seekpng.com/png/detail/304-3043196_technology-clipart-recruitment-computer-icons-human-human-resource.png',
         text: `
-            Sent e-mail to timesheet@itenium.be
-            ${agent.parameters['description']}
+            <div>Sent e-mail to HR@itenium.be</div>
+            <div>${agent.parameters['description']}</div>
         `,
     }));
 }

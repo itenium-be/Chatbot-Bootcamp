@@ -1,6 +1,8 @@
 Chatbot
 =======
 
+Wifi: `DENBERG-GUEST`
+
 The Bots
 --------
 

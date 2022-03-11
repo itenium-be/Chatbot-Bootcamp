@@ -1,5 +1,7 @@
-import {Suggestion, WebhookClient} from 'dialogflow-fulfillment';
+import {Card, Suggestion, WebhookClient} from 'dialogflow-fulfillment';
 import consultants from '../../data/consultants.json';
+
+const dateFormat = date => `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`;
 
 function problemReportHandler(agent: WebhookClient): void {
     console.error('Reporting problem');
@@ -11,18 +13,14 @@ function problemReportHandler(agent: WebhookClient): void {
     console.log('query:', agent.query);
 
     const paramName = agent.parameters['name']['name'];
-    const paramDob = new Date(agent.parameters['birthdate']).toLocaleDateString("nl-NL", {
-        day: "2-digit",
-        month: "2-digit",
-        year: "numeric"
-    });
+    const paramDob = dateFormat(new Date(agent.parameters['birthdate']));
 
     const consultant = consultants.find(({lastname, name}) => `${name} ${lastname}` === paramName);
     if (!consultant) {
         agent.add('You are not known in our system yet. Maybe you want to apply for a job?');
         return;
     }
-    if (consultant.dob !== paramDob) {
+    if (consultant.birthdate !== paramDob) {
         agent.add(`No way, Jose! You don't even know your own date of birth!`);
         return;
     }
@@ -41,12 +39,9 @@ function problemReportHandler(agent: WebhookClient): void {
 
 
     agent.add('What is your problem related to?');
-    agent.add(new Suggestion("Illness"));
     agent.add(new Suggestion("Car"));
+    agent.add(new Suggestion("Illness"));
     agent.add(new Suggestion("HR"));
-
-
-    // agent.setFollowupEvent()
 }
 
 function carProblemHandler(agent: WebhookClient): void {
@@ -58,10 +53,19 @@ function carProblemHandler(agent: WebhookClient): void {
     console.log('session:', agent.session);
     console.log('query:', agent.query);
 
+    agent.add(new Card({
+        title: 'Car problem successfully reported!',
+        imageUrl: 'https://www.seekpng.com/png/detail/206-2068514_flat-tire-icon-tire.png',
+        text: `
+            <div>Sent e-mail to Fleet@itenium.be</div>
+            
+            <div>${agent.parameters['description']}</div>
+        `,
+    }));
 
 }
 
-export default function(intentMap: Map<string, Function>) {
+export default function (intentMap: Map<string, Function>) {
     intentMap.set('consultant.ProblemReport', problemReportHandler);
     intentMap.set('consultant.CarProblem', carProblemHandler);
 }

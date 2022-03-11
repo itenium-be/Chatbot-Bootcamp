@@ -36,7 +36,7 @@ function displayConfirmNameFound(agent: WebhookClient): void {
     let personParameter = agent.parameters.person;
     const persoon = consultants.find(obj => obj.name.toLowerCase === personParameter["name"].toLowerCase);
 
-    if (persoon?.birthDate == dayjs(birthdate).format("YYYY-MM-DD")) {
+    if (persoon?.birthdate == dayjs(birthdate).format("YYYY-MM-DD")) {
         consultants.map((x) => {
             if (x.approved && x.name !== personParameter["name"]) {
                 agent.add(new Card({

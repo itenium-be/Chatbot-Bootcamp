@@ -28,12 +28,22 @@ function candidateOnboardingExample(agent: WebhookClient): void {
 
     agent.add(new Suggestion('Quick Reply'));
     agent.add(new Card({
-        title: 'Title: this is a card title',
-        imageUrl: 'https://developers.google.com/actions/images/badges/XPM_BADGING_GoogleAssistant_VER.png',
-        text: 'This is the body text of a card.  You can even use line\n  breaks and emoji! 💁',
-        buttonText: 'This is a button',
-        buttonUrl: 'https://assistant.google.com/'
+        title: 'Welcome!',
+        imageUrl: 'https://github.com/itenium-be/marketing/raw/master/Logos/Logos/200x100/itenium_logo_gray-text%20rbg.jpg',
+        text: 'This is the body text of a card. You can even use emoji! 💁',
+        buttonText: 'Visit the itenium library',
+        buttonUrl: 'https://itenium.be/library'
     }));
+
+    // Set context for the next intent
+    // agent.clearContext();
+    // agent.clearOutgoingContexts();
+    // agent.getContext();
+    // agent.setContext();
+
+    // Redirect to another intent by event name
+    // This will ignore all calls to agent.add!
+    // agent.setFollowupEvent('event_name_as_entered_on_intent_details');
 }
 
 app.post('/webhook', function (req: Request, res: Response) {

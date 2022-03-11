@@ -1,11 +1,14 @@
 [{
     "name": "Bert",
-    "city": "Etterbeek",
+    "lastname" : "Vermorgen",
+    "city": "Dendermonde",
     "email": "bert.vermorgen@itenium.be",
-    "skills": [".NET", "SQL Server", "JavaScript"],
-    "hobbies": ["Badminton", "Swimming", "Reading"]
+    "skills": [".NET", "SQL Server", "JavaScript", "Angular"],
+    "hobbies": ["Badminton", "Swimming", "Reading"],
+    "project":"Digitaal Vlaanderen"
 }, {
   "name": "Jonathan",
+  "lastname": "Rasquin",
   "city": "Vilvoorde",
   "email": "jonathan.rasquin@itenium.be",
   "skills": [".NET", "Azure"],
@@ -13,6 +16,7 @@
   "project": "Agilitas"
 }, {
   "name": "Michiel",
+  "lastname": "Ryvers",
   "city": "Leuven",
   "email": "michiel.ryvers@itenium.be",
   "skills": [".NET", "Angular"],
@@ -20,6 +24,7 @@
   "project": "SBB"
 }, {
   "name": "Mike",
+  "lastname" : "Dumortier",
   "city": "Hemiksem",
   "email": "michael.dumortier@itenium.be",
   "skills": ["GDPR", "SQL"],
@@ -27,6 +32,7 @@
   "project": "Partena"
 }, {
   "name": "Sofie",
+  "lastname": "Vinck",
   "city": "Pamel",
   "email": "sofie.vinck@itenium.be",
   "skills": ["Scrum"],
@@ -34,6 +40,7 @@
   "project": "Partena"
 }, {
   "name": "Thibault",
+  "lastname" : "Derieuw",
   "city": "Brussel",
   "email": "thibault.derieuw@itenium.be",
   "skills": [".NET", "Vue", "SQL Server"],
@@ -41,6 +48,7 @@
   "project": "Sport Vlaanderen"
 }, {
   "name": "Tomas",
+  "lastname":"Berckx",
   "city": "Keerbergen",
   "email": "tomas.berckx@itenium.be",
   "skills": [".NET", "Oracle", "Angular", "React", "Vue"],
@@ -48,6 +56,7 @@
   "project": "LAV"
 }, {
   "name": "Thomas",
+"lastname":"De Brauwer",
   "city": "Galmaarden",
   "email": "thomas.de.brauwer@itenium.be",
   "skills": ["Java", "SQL", "UML"],
@@ -55,6 +64,7 @@
   "project": "Swift"
 }, {
   "name": "Yentl",
+  "lastname":"Storms",
   "city": "Schriek",
   "email": "yentl.storms@itenium.be",
   "skills": ["Java", "Spring", "Angular", "React"],

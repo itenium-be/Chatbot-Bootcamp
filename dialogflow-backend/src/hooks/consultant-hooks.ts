@@ -57,6 +57,8 @@ function carProblemHandler(agent: WebhookClient): void {
     console.log('parameters:', agent.parameters);
     console.log('session:', agent.session);
     console.log('query:', agent.query);
+
+
 }
 
 export default function(intentMap: Map<string, Function>) {

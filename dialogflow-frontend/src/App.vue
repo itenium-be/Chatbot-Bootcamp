@@ -68,7 +68,7 @@
             <!-- BasicCard (https://cloud.google.com/dialogflow/docs/reference/rest/v2beta1/projects.agent.intents#BasicCard) -->
             <RichCard
               v-if="component.basicCard"
-              :title="'blablab'"
+              :title="component.basicCard.title"
               :subtitle="component.basicCard.subtitle"
               :image-uri="component.basicCard.image.imageUri"
               :image-title="component.basicCard.image.accessibilityText"

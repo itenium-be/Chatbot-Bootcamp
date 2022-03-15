@@ -2,21 +2,33 @@
   {
     "title": "Bootcamp Chatbots",
     "desc": "Bootcamp om een Chatbot te maken met Dialogflow en te integreren in itenium.be",
-    "date": "2022-03-11"
+    "date": "2022-03-11",
+    "location": "Londerzeel",
+    "food": true,
+    "calendarUrl": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MG9vNTJldDM0bnNwbTVhcnJwOWtoaWEwaWogNW5udGhtY2NnNHRkZGgwZWJ0MjFhZW5xaG9AZw&tmsrc=5nnthmccg4tddh0ebt21aenqho%40group.calendar.google.com"
   },
   {
     "title": "Architectuur Opening Session",
     "desc": "Opleidingsplan Architectuur: Globaal overzicht en inplannen sessies Design, Architectuur, Patterns, etc",
-    "date": "2022-04-15"
+    "date": "2022-04-15",
+    "location": "Itenium headquarters",
+    "food": false,
+    "calendarUrl": "https://calendar.google.com/event?action=TEMPLATE&tmeid=N2xsc2YxdnE2a21zcTl1Zzhyb3M0bmhwbGUgNW5udGhtY2NnNHRkZGgwZWJ0MjFhZW5xaG9AZw&tmsrc=5nnthmccg4tddh0ebt21aenqho%40group.calendar.google.com"
   },
   {
     "title": "Waarom ik geen ifs meer schrijf",
     "desc": "Waarom Scrum geen Agile is + Geen ifs meer",
-    "date": "2022-04-22"
+    "date": "2022-04-22",
+    "location": "Itenium headquarters",
+    "food": false,
+    "calendarUrl": "https://calendar.google.com/event?action=TEMPLATE&tmeid=MWE2cDZ0Y2k3c2NxazNwNmdwdHY3OW1ic2kgNW5udGhtY2NnNHRkZGgwZWJ0MjFhZW5xaG9AZw&tmsrc=5nnthmccg4tddh0ebt21aenqho%40group.calendar.google.com"
   },
   {
     "title": "Garbage Collection",
     "desc": "Vergelijk GC in Java en .NET",
-    "date": "2022-05-19"
+    "date": "2022-05-19",
+    "location": "Itenium headquarters",
+    "food": true,
+    "calendarUrl": "https://calendar.google.com/event?action=TEMPLATE&tmeid=NDA3MjBpNDFmYnUzZ2wxZHM3NnVkOGM4N3UgNW5udGhtY2NnNHRkZGgwZWJ0MjFhZW5xaG9AZw&tmsrc=5nnthmccg4tddh0ebt21aenqho%40group.calendar.google.com"
   }
 ]

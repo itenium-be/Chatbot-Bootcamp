@@ -40,13 +40,12 @@ function problemReportHandler(agent: WebhookClient): void {
 }
 
 function carProblemHandler(agent: WebhookClient): void {
+    // TODO 1: send e-mail
+    // TODO 2: Update Card component so it supports html in text
     agent.add(new Card({
         title: 'Car problem successfully reported!',
         imageUrl: 'https://www.seekpng.com/png/detail/206-2068514_flat-tire-icon-tire.png',
-        text: `
-            <div>Sent e-mail to Fleet@itenium.be\n\n</div>
-            <div>${agent.parameters['description']}</div>
-        `,
+        text: `${agent.parameters['description']}`,
     }));
 }
 

@@ -1,5 +1,6 @@
 [{
     "name": "Bert",
+    "lastname": "Vermorgen",
     "city": "Etterbeek",
     "email": "bert.vermorgen@itenium.be",
     "skills": [".NET", "SQL Server", "JavaScript"],
@@ -9,6 +10,7 @@
 
 }, {
   "name": "Jonathan",
+  "lastname": "Rasquin",
   "city": "Vilvoorde",
   "email": "jonathan.rasquin@itenium.be",
   "skills": [".NET", "Azure"],
@@ -18,6 +20,7 @@
   "approved":true
 }, {
   "name": "Michiel",
+  "lastname": "Ryvers",
   "city": "Leuven",
   "email": "michiel.ryvers@itenium.be",
   "skills": [".NET", "Angular"],
@@ -27,6 +30,7 @@
   "approved":true
 }, {
   "name": "Mike",
+  "lastname": "Dumortier",
   "city": "Hemiksem",
   "email": "michael.dumortier@itenium.be",
   "skills": ["GDPR", "SQL"],
@@ -36,6 +40,7 @@
   "approved":true
 }, {
   "name": "Sofie",
+  "lastname": "Vinck",
   "city": "Pamel",
   "email": "sofie.vinck@itenium.be",
   "skills": ["Scrum"],
@@ -45,6 +50,7 @@
   "approved":true
 }, {
   "name": "Thibault",
+  "lastname": "Derieuw",
   "city": "Brussel",
   "email": "thibault.derieuw@itenium.be",
   "skills": [".NET", "Vue", "SQL Server"],
@@ -54,6 +60,7 @@
   "approved":true
 }, {
   "name": "Tomas",
+  "lastname": "Berckx",
   "city": "Keerbergen",
   "email": "tomas.berckx@itenium.be",
   "skills": [".NET", "Oracle", "Angular", "React", "Vue"],
@@ -63,6 +70,7 @@
   "approved":true
 }, {
   "name": "Thomas",
+  "lastname": "De Brauwer",
   "city": "Galmaarden",
   "email": "thomas.de.brauwer@itenium.be",
   "skills": ["Java", "SQL", "UML"],
@@ -72,11 +80,12 @@
   "approved":true
 }, {
   "name": "Yentl",
+  "lastname": "Storms",
   "city": "Schriek",
   "email": "yentl.storms@itenium.be",
   "skills": ["Java", "Spring", "Angular", "React"],
   "hobbies": ["Piano", "Lacrosse"],
   "project": "OVAM",
-  "birthdate": "1990-11-22",
+  "birthdate": "1995-02-20",
   "approved":true
 }]

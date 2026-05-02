@@ -2,7 +2,7 @@
   <div class="welcome-view">
     <!-- Agent Icon -->
     <img v-if="agent.avatarUri" class="agent-icon" :alt="agent.displayName" :src="agent.avatarUri">
-    <img v-else class="agent-icon" src="https://github.com/itenium-be/marketing/raw/master/Logos/Logos/200x100/itenium_logo_gray-text%20rbg.jpg" :alt="agent.displayName">
+    <img v-else class="agent-icon" src="https://github.com/itenium-be/marketing/raw/main/Logos/Logos/200x100/itenium_logo_gray-text%20rbg.jpg" :alt="agent.displayName">
 
     <!-- Agent Title -->
     <div class="agent-title">{{agent.displayName}}</div>

@@ -29,7 +29,7 @@ function candidateOnboardingExample(agent: WebhookClient): void {
     agent.add(new Suggestion('Quick Reply'));
     agent.add(new Card({
         title: 'Welcome!',
-        imageUrl: 'https://github.com/itenium-be/marketing/raw/master/Logos/Logos/200x100/itenium_logo_gray-text%20rbg.jpg',
+        imageUrl: 'https://github.com/itenium-be/marketing/raw/main/Logos/Logos/200x100/itenium_logo_gray-text%20rbg.jpg',
         text: 'This is the body text of a card. You can even use emoji! 💁',
         buttonText: 'Visit the itenium library',
         buttonUrl: 'https://itenium.be/library'
